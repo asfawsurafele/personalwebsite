@@ -12,3 +12,13 @@ h1
 {
     font-family: Montserrat, sans-serif;
 }
+div.navi{
+    text-align:center;
+}
+
+ul.listv1{
+    display: inline-block;
+    text-align: left;
+    
+    
+}
