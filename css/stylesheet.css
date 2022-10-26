@@ -5,8 +5,6 @@ main{
 body
 {
     background-color: #edddd0;
-    /* grid-template-columns: repeat(2, 1fr) 100px repeat(2, 2fr); */
-
 }
 h1
 {
@@ -19,8 +17,6 @@ h1
     background-color:#A6CAD4;
     font-family: Montserrat, sans-serif;
     display:grid;
-    grid-row:1/-1;
-    
 }
 
 ul.listv1{
@@ -58,7 +54,7 @@ h3{
 }
 
 .foot{
-    display:grid;
+    display:block;
     background-color:#A6CAD4;
     text-align:center;
 }
@@ -66,3 +62,7 @@ li {
     display:inline-block
 
 }
+
+.grid{
+    display:block;
+    
