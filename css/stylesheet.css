@@ -5,6 +5,7 @@ main{
 body
 {
     background-color: #edddd0;
+    grid-template-columns: repeat(2, 1fr) 100px repeat(2, 2fr);
 
 }
 h1
