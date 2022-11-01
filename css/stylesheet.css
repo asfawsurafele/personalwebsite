@@ -1,3 +1,4 @@
+@media (min-width:600px){
 main{
     display:grid;
     
@@ -65,4 +66,37 @@ li {
 
 .grid{
     display:block;
+}
+
+.courselist{
+    display:flex;
+    flex-direction:column;
+    margin-top:1%;
+    padding-left:0%;
+    
+}
+    
+ul li{
+    margin-top:1%;
+    border-bottom:black 2px solid; 
+}
+
+li a{
+    margin-top:10%;
+}
+
+li p{
+    padding-right:2.5%;
+    padding-top:0%;
+    padding-bottom:0%;
+}
+
+li footer{
+    padding-top:2.5%;
+    padding-bottom:0%;
+}
+}
+@media screen and (min-width:600px){
+    
+    }
 }
