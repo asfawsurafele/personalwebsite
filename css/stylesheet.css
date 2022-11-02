@@ -79,9 +79,13 @@ li {
     margin-top:1%;
     border-bottom:black 2px solid; 
 }
+.courselist li:last-child{
+    border-style:hidden;
+}
+
 
 li a{
-    margin-top:10%;
+    margin-top:0%;
 }
 
 li p{
