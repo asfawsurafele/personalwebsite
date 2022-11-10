@@ -12,7 +12,7 @@ const courseList = [{
     },
 ];
 
-
+var a = false
 
 let testobject = {
     code: "0",
@@ -31,34 +31,43 @@ courseList.forEach((element) => {
     if (usercode == x){
         if (usercode == 1620){
         console.log('Yes I am taking the course: ACIT 1620 - Web Fundamental Technologies');
+        a = true;
     }
         else if (usercode == 1420){
         console.log('Yes I am taking the course: ACIT 1420 - System Administration');
+        a = true;
 
     }
         else if (usercode == 1630){
-        console.log('Yes I am taking the course: ACIT 1630 - Database Systems')
-    }
-}
+        console.log('Yes I am taking the course: ACIT 1630 - Database Systems');
+        a = true;
+    }   
+    } 
+
    
 });
- if (Number(usercode) !== 1620){
-        copiedobject.code = usercode;
-        courseList.push(testobject);
-    };
-if (Number(usercode) !== 1420){
-        copiedobject.code = usercode;
-        courseList.push(testobject);
-    };
-if (Number(usercode) !== 1630){
-        copiedobject.code = usercode;
-        courseList.push(testobject);
-    };
+if (a === false) {
+    copiedobject.code = usercode;
+    courseList.push(testobject);
+}
+console.log(courseList)
+//  if (Number(usercode) !== 1620){
+//         copiedobject.code = usercode;
+//         courseList.push(testobject);
+//     };
+// if (Number(usercode) !== 1420){
+//         copiedobject.code = usercode;
+//         courseList.push(testobject);
+//     };
+// if (Number(usercode) !== 1630){
+//         copiedobject.code = usercode;
+//         courseList.push(testobject);
+//     };
     // if (Number(usercode) != 1620 && 1420 && 1630){
     //     courseList.push(testobject);
     //     }
 
-console.log(courseList)
+// console.log(courseList)
 
 
 
