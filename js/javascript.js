@@ -49,6 +49,7 @@ courseList.forEach((element) => {
 if (a === false) {
     copiedobject.code = usercode;
     courseList.push(testobject);
+    console.log('Success!')
 }
 
 //  if (Number(usercode) !== 1620){
