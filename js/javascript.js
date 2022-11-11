@@ -50,7 +50,7 @@ if (a === false) {
     copiedobject.code = usercode;
     courseList.push(testobject);
 }
-console.log(courseList)
+
 //  if (Number(usercode) !== 1620){
 //         copiedobject.code = usercode;
 //         courseList.push(testobject);
